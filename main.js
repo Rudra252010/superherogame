@@ -37,26 +37,3 @@ function new_image(get_image){
         });
       }
 
-      function car_1_up()
-      {
-        if(car_1_y>=0)
-        {
-          car_1_y = car_1_y - 10;
-          console.log("when up arrow is pressed , x ="+ car_1_x + "y =" + car_1_y);
-          uploadbackground();
-          uploadcar_1();
-          uploadcar_2();
-        }
-      }
-      
-      function car_1_down()
-      {
-        if(car_1_y>=500)
-        {
-          car_1_y = car_1_y + 10;
-          console.log("when up arrow is pressed , x ="+ car_1_x + "y =" + car_1_y);
-          uploadbackground();
-          uploadcar_1();
-          uploadcar_2();
-        }
-      }   
